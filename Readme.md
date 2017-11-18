@@ -62,7 +62,7 @@ Sử dụng kỹ thuật Double-buffing - các biến sử dụng thường xuy�
 
 ### ------------ LINK BITBUCKET -----------
 > Before ver 3.0: https://1512029@bitbucket.org/1512029/paint.git
-> Before ver 3.1: https://1512029@bitbucket.org/1512029/paint.git
+> 		 ver 3.1: https://1512029@bitbucket.org/1512029/paint.git
 ```
 Chú ý link repository trên là private đã add key public của giáo viên.
 Đồng thời add user tdquang_edu vào repository với quyền read.
