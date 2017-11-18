@@ -1,0 +1,279 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_TAB_HOME_LabelTitle_RESID L"Home" /* LabelTitle ID_CMD_TAB_HOME_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_TAB_HOME_Keytip_RESID L"H" /* Keytip ID_CMD_TAB_HOME_Keytip_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdShapesGroup_LabelTitle_RESID L"Shapes" /* LabelTitle cmdShapesGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdStylesGroup_LabelTitle_RESID L"Styles - Width" /* LabelTitle cmdStylesGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdColorsGroup_LabelTitle_RESID L"Colors Picker" /* LabelTitle cmdColorsGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdColorPicker_LabelTitle_RESID L"Outline" /* LabelTitle cmdColorPicker_LabelTitle_RESID: (null) */
+END
+
+cmdColorPicker_LargeImages_RESID    IMAGE    "Icons\\color.picker.png" /* LargeImages cmdColorPicker_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDR_CMD_SHAPES_LabelTitle_RESID L"Shapes" /* LabelTitle IDR_CMD_SHAPES_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_LabelTitle_RESID L"Styles" /* LabelTitle ID_CMD_STYLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_LargeImages_RESID    IMAGE    "Icons\\styles.png" /* LargeImages ID_CMD_STYLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_SOLID_LabelTitle_RESID L"SOLID" /* LabelTitle ID_CMD_STYLE_SOLID_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_SOLID_LargeImages_RESID    IMAGE    "Icons\\DashStyleButton.Solid.png" /* LargeImages ID_CMD_STYLE_SOLID_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_DASH_LabelTitle_RESID L"DASH" /* LabelTitle ID_CMD_STYLE_DASH_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_DASH_LargeImages_RESID    IMAGE    "Icons\\DashStyleButton.Dash.png" /* LargeImages ID_CMD_STYLE_DASH_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_DOT_LabelTitle_RESID L"DOT" /* LabelTitle ID_CMD_STYLE_DOT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_DOT_LargeImages_RESID    IMAGE    "Icons\\DashStyleButton.Dot.png" /* LargeImages ID_CMD_STYLE_DOT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_DASHDOT_LabelTitle_RESID L"DASHDOT" /* LabelTitle ID_CMD_STYLE_DASHDOT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_DASHDOT_LargeImages_RESID    IMAGE    "Icons\\DashStyleButton.DashDot.png" /* LargeImages ID_CMD_STYLE_DASHDOT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_DASHDOTDOT_LabelTitle_RESID L"DASHDOTDOT" /* LabelTitle ID_CMD_STYLE_DASHDOTDOT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_DASHDOTDOT_LargeImages_RESID    IMAGE    "Icons\\DashStyleButton.DashDotDot.png" /* LargeImages ID_CMD_STYLE_DASHDOTDOT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_WIDTH_LabelTitle_RESID L"Size" /* LabelTitle ID_CMD_WIDTH_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_WIDTH_LargeImages_RESID    IMAGE    "Icons\\width.png" /* LargeImages ID_CMD_WIDTH_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDR_CMD_BORDERSIZES_LabelTitle_RESID L"Size" /* LabelTitle IDR_CMD_BORDERSIZES_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SIZE_1_LabelTitle_RESID L"SIZE 1" /* LabelTitle ID_CMD_SIZE_1_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_SIZE_1_LargeImages_RESID    IMAGE    "Icons\\size.1.png" /* LargeImages ID_CMD_SIZE_1_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SIZE_2_LabelTitle_RESID L"SIZE 2" /* LabelTitle ID_CMD_SIZE_2_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_SIZE_2_LargeImages_RESID    IMAGE    "Icons\\size.2.png" /* LargeImages ID_CMD_SIZE_2_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SIZE_3_LabelTitle_RESID L"SIZE 3" /* LabelTitle ID_CMD_SIZE_3_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_SIZE_3_LargeImages_RESID    IMAGE    "Icons\\size.3.png" /* LargeImages ID_CMD_SIZE_3_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SIZE_5_LabelTitle_RESID L"SIZE 5" /* LabelTitle ID_CMD_SIZE_5_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_SIZE_5_LargeImages_RESID    IMAGE    "Icons\\size.5.png" /* LargeImages ID_CMD_SIZE_5_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_CMD_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LINE_LargeImages_RESID    IMAGE    "Icons\\line.png" /* LargeImages ID_CMD_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_CMD_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_RECTANGLE_LargeImages_RESID    BITMAP    "Icons\\rectangle.bmp" /* LargeImages ID_CMD_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_CMD_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ELLIPSE_LargeImages_RESID    BITMAP    "Icons\\ellipse.bmp" /* LargeImages ID_CMD_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_LabelTitle_RESID L"&New" /* LabelTitle ID_CMD_NEW_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_LabelDescription_RESID L"New" /* LabelDescription ID_CMD_NEW_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_TooltipTitle_RESID L"Button New" /* TooltipTitle ID_CMD_NEW_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_TooltipDescription_RESID L"Click to new" /* TooltipDescription ID_CMD_NEW_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_NEW_LargeImages_RESID    IMAGE    "Icons\\new.png" /* LargeImages ID_CMD_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_LabelTitle_RESID L"&Open" /* LabelTitle ID_CMD_OPEN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_LabelDescription_RESID L"Open" /* LabelDescription ID_CMD_OPEN_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_TooltipTitle_RESID L"Open (Ctrl + O)" /* TooltipTitle ID_CMD_OPEN_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_TooltipDescription_RESID L"Open an existing picture." /* TooltipDescription ID_CMD_OPEN_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_OPEN_LargeImages_RESID    IMAGE    "Icons\\open.png" /* LargeImages ID_CMD_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_LabelTitle_RESID L"&Save" /* LabelTitle ID_CMD_SAVE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_LabelDescription_RESID L"Save" /* LabelDescription ID_CMD_SAVE_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_TooltipTitle_RESID L"Save (Ctrl + S)" /* TooltipTitle ID_CMD_SAVE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_TooltipDescription_RESID L"Save the current picture." /* TooltipDescription ID_CMD_SAVE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_SAVE_LargeImages_RESID    IMAGE    "Icons\\save.png" /* LargeImages ID_CMD_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelTitle_RESID L"E&xit" /* LabelTitle ID_CMD_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelDescription_RESID L"Exit" /* LabelDescription ID_CMD_EXIT_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_TooltipTitle_RESID L"Exit (Ctrl + W)" /* TooltipTitle ID_CMD_EXIT_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_TooltipDescription_RESID L"Click to exit" /* TooltipDescription ID_CMD_EXIT_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_EXIT_LargeImages_RESID    IMAGE    "Icons\\exit.png" /* LargeImages ID_CMD_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_LabelTitle_RESID L"&Undo" /* LabelTitle ID_CMD_UNDO_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_LabelDescription_RESID L"Undo" /* LabelDescription ID_CMD_UNDO_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_TooltipTitle_RESID L"Undo (Ctrl + Z)" /* TooltipTitle ID_CMD_UNDO_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_TooltipDescription_RESID L"Undo last action." /* TooltipDescription ID_CMD_UNDO_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_UNDO_LargeImages_RESID    IMAGE    "Icons\\undo.png" /* LargeImages ID_CMD_UNDO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_REDO_LabelTitle_RESID L"&Redo" /* LabelTitle ID_CMD_REDO_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_REDO_LabelDescription_RESID L"Redo" /* LabelDescription ID_CMD_REDO_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_REDO_TooltipTitle_RESID L"Redo (Ctrl + Y)" /* TooltipTitle ID_CMD_REDO_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_REDO_TooltipDescription_RESID L"Redo last action." /* TooltipDescription ID_CMD_REDO_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_REDO_LargeImages_RESID    IMAGE    "Icons\\redo.png" /* LargeImages ID_CMD_REDO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_HELP_LabelDescription_RESID L"Help" /* LabelDescription ID_CMD_HELP_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_HELP_TooltipTitle_RESID L"Button Help" /* TooltipTitle ID_CMD_HELP_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_HELP_TooltipDescription_RESID L"Click to show help" /* TooltipDescription ID_CMD_HELP_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "F:\\University\\LTWin\\Lab\\Lab09.Paint.Dll\\Paint\\Paint\\\\Ribbon.bml"

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="cmdTabHome" Keytip="H" Symbol="ID_CMD_TAB_HOME">
+      <Command.LabelTitle>
+        <String Id="200">Home</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdShapesGroup">
+      <Command.LabelTitle>
+        <String Id="210">Shapes</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdStylesGroup">
+      <Command.LabelTitle>
+        <String Id="213">Styles - Width</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdColorsGroup">
+      <Command.LabelTitle>
+        <String Id="211">Colors Picker</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdColorPicker" Symbol="cmdColorPicker">
+      <Command.LabelTitle>
+        <String Id="220">Outline</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="241">Icons/color.picker.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdShapes" Symbol="IDR_CMD_SHAPES">
+      <Command.LabelTitle>
+        <String Id="240">Shapes</String>
+      </Command.LabelTitle>
+    </Command>
+    
+    <Command Name="cmdBtnStyles" LabelTitle="Styles" Symbol="ID_CMD_STYLE">
+      <Command.LargeImages>
+        <Image Id="250">Icons/styles.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSOLID" LabelTitle="SOLID" Symbol="ID_CMD_STYLE_SOLID">
+      <Command.LargeImages>
+        <Image Id="251">Icons/DashStyleButton.Solid.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDASH" LabelTitle="DASH" Symbol="ID_CMD_STYLE_DASH">
+      <Command.LargeImages>
+        <Image Id="252">Icons/DashStyleButton.Dash.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDOT" LabelTitle="DOT" Symbol="ID_CMD_STYLE_DOT">
+      <Command.LargeImages>
+        <Image Id="253">Icons/DashStyleButton.Dot.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDASHDOT" LabelTitle="DASHDOT" Symbol="ID_CMD_STYLE_DASHDOT">
+      <Command.LargeImages>
+        <Image Id="254">Icons/DashStyleButton.DashDot.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDASHDOTDOT" LabelTitle="DASHDOTDOT" Symbol="ID_CMD_STYLE_DASHDOTDOT">
+      <Command.LargeImages>
+        <Image Id="255">Icons/DashStyleButton.DashDotDot.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnWidth" LabelTitle="Size" Symbol="ID_CMD_WIDTH">
+      <Command.LargeImages>
+        <Image Id="260">Icons/width.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdBorderSizes" Symbol="IDR_CMD_BORDERSIZES">
+      <Command.LabelTitle>
+        <String Id="270">Size</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdSize1" LabelTitle="SIZE 1" Symbol="ID_CMD_SIZE_1">
+      <Command.LargeImages>
+        <Image Id="271">Icons/size.1.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSize2" LabelTitle="SIZE 2" Symbol="ID_CMD_SIZE_2">
+      <Command.LargeImages>
+        <Image Id="272">Icons/size.2.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSize3" LabelTitle="SIZE 3" Symbol="ID_CMD_SIZE_3">
+      <Command.LargeImages>
+        <Image Id="273">Icons/size.3.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSize5" LabelTitle="SIZE 5" Symbol="ID_CMD_SIZE_5">
+      <Command.LargeImages>
+        <Image Id="274">Icons/size.5.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnLine" LabelTitle="Line" Symbol="ID_CMD_LINE">
+      <Command.LargeImages>
+        <Image Id="300">Icons/line.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdBtnRectangle" LabelTitle="Rectangle" Symbol="ID_CMD_RECTANGLE">
+      <Command.LargeImages>
+        <Image Id="301">Icons/rectangle.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdBtnEllipse" LabelTitle="Ellipse" Symbol="ID_CMD_ELLIPSE">
+      <Command.LargeImages>
+        <Image Id="302">Icons/ellipse.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnNew" 
+            LabelTitle="&amp;New" 
+            Symbol="ID_CMD_NEW"
+            LabelDescription="New"
+            TooltipTitle="Button New"
+            TooltipDescription="Click to new">
+      <Command.LargeImages>
+        <Image Id="101">Icons/new.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnOpen" 
+            LabelTitle="&amp;Open" 
+            Symbol="ID_CMD_OPEN"
+            LabelDescription="Open"
+            TooltipTitle="Open (Ctrl + O)"
+            TooltipDescription="Open an existing picture.">
+      <Command.LargeImages>
+        <Image Id="102">Icons/open.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnSave" 
+            LabelTitle="&amp;Save" 
+            Symbol="ID_CMD_SAVE"
+            LabelDescription="Save"
+            TooltipTitle="Save (Ctrl + S)"
+            TooltipDescription="Save the current picture.">
+      <Command.LargeImages>
+        <Image Id="103">Icons/save.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnExit" 
+            LabelTitle="E&amp;xit" 
+            Symbol="ID_CMD_EXIT"
+            LabelDescription="Exit"
+            TooltipTitle="Exit (Ctrl + W)"
+            TooltipDescription="Click to exit">
+      <Command.LargeImages>
+        <Image Id="104">Icons/exit.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnUndo" 
+            LabelTitle="&amp;Undo" 
+            Symbol="ID_CMD_UNDO"
+            LabelDescription="Undo"
+            TooltipTitle="Undo (Ctrl + Z)"
+            TooltipDescription="Undo last action.">
+      <Command.LargeImages>
+        <Image Id="105">Icons/undo.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnRedo" 
+            LabelTitle="&amp;Redo" 
+            Symbol="ID_CMD_REDO"
+            LabelDescription="Redo"
+            TooltipTitle="Redo (Ctrl + Y)"
+            TooltipDescription="Redo last action.">
+      <Command.LargeImages>
+        <Image Id="106">Icons/redo.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBtnHelp" 
+            Symbol="ID_CMD_HELP"
+            LabelDescription="Help"
+            TooltipTitle="Button Help"
+            TooltipDescription="Click to show help"/>
+    
+    <Command Name="cmdQAT" Symbol="ID_QAT" Id="40000"/>
+    <Command Name="cmdCustomizeQAT" Symbol="ID_CUSTOM_QAT" Id="40001"/>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.HelpButton>
+        <HelpButton CommandName="cmdBtnHelp" />
+      </Ribbon.HelpButton>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu>
+          <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdBtnNew"/>
+            <Button CommandName="cmdBtnOpen"/>
+            <Button CommandName="cmdBtnSave"/>
+          </MenuGroup>
+          <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdBtnExit"/>
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdTabHome">
+          <Group CommandName="cmdShapesGroup" SizeDefinition="ThreeButtons">
+            <ToggleButton CommandName="cmdBtnLine"/>
+            <ToggleButton CommandName="cmdBtnRectangle"/>
+            <ToggleButton CommandName="cmdBtnEllipse"/>
+          </Group>
+          <Group CommandName="cmdColorsGroup" SizeDefinition="OneButton">
+            <DropDownColorPicker ColorTemplate="ThemeColors"  ChipSize="Medium" IsAutomaticColorButtonVisible="true" IsNoColorButtonVisible="false" Columns="10" StandardColorGridRows="1" CommandName="cmdColorPicker"/>
+          </Group>
+          <Group CommandName="cmdStylesGroup" SizeDefinition="TwoButtons">
+            <DropDownGallery CommandName="cmdBtnStyles" Type="Commands" ItemHeight="32" ItemWidth="128" HasLargeItems="true">
+              <DropDownGallery.MenuLayout>
+                <VerticalMenuLayout Gripper="None" />
+              </DropDownGallery.MenuLayout>
+              <DropDownGallery.MenuGroups>
+              <MenuGroup Class="MajorItems">
+                <ToggleButton CommandName="cmdSOLID"/>
+                <ToggleButton CommandName="cmdDASH"/>
+                <ToggleButton CommandName="cmdDOT"/>
+                <ToggleButton CommandName="cmdDASHDOT"/>
+                <ToggleButton CommandName="cmdDASHDOTDOT"/>
+              </MenuGroup>
+              </DropDownGallery.MenuGroups>
+            </DropDownGallery>
+            <DropDownGallery CommandName="cmdBtnWidth" Type="Commands" ItemHeight="32" ItemWidth="128" HasLargeItems="true">
+              <DropDownGallery.MenuLayout>
+                <VerticalMenuLayout Gripper="None" />
+              </DropDownGallery.MenuLayout>
+              <DropDownGallery.MenuGroups>
+                <MenuGroup Class="MajorItems">
+                  <ToggleButton CommandName="cmdSize1"/>
+                  <ToggleButton CommandName="cmdSize2"/>
+                  <ToggleButton CommandName="cmdSize3"/>
+                  <ToggleButton CommandName="cmdSize5"/>
+                </MenuGroup>
+              </DropDownGallery.MenuGroups>
+            </DropDownGallery>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+      <Ribbon.QuickAccessToolbar>
+        <QuickAccessToolbar CommandName="cmdQAT" CustomizeCommandName="cmdCustomizeQAT">
+          <QuickAccessToolbar.ApplicationDefaults>
+            <Button CommandName="cmdBtnNew" ApplicationDefaults.IsChecked="false"/>
+            <Button CommandName="cmdBtnOpen" ApplicationDefaults.IsChecked="false"/>
+            <Button CommandName="cmdBtnSave"/>
+            <Button CommandName="cmdBtnUndo"/>
+            <Button CommandName="cmdBtnRedo"/>
+          </QuickAccessToolbar.ApplicationDefaults>
+        </QuickAccessToolbar>
+      </Ribbon.QuickAccessToolbar>
+    </Ribbon>
+  </Application.Views>
+</Application>
