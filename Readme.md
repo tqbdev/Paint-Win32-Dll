@@ -61,8 +61,8 @@ Sử dụng kỹ thuật Double-buffing - các biến sử dụng thường xuy�
 2. Khi mở file trong khi đang vẽ thì hỏi có muốn lưu hay không?
 
 ### ------------ LINK BITBUCKET -----------
-> Before ver 3.0: https://1512029@bitbucket.org/1512029/paint.git
-> 		 ver 3.1: https://1512029@bitbucket.org/1512029/paint.git
+1. Before ver 3.0: https://1512029@bitbucket.org/1512029/paint.git
+2.        ver 3.1: https://1512029@bitbucket.org/1512029/paint-dll.git
 ```
 Chú ý link repository trên là private đã add key public của giáo viên.
 Đồng thời add user tdquang_edu vào repository với quyền read.
