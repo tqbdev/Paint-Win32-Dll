@@ -11,24 +11,27 @@ namespace MyPaint
 	{
 	}
 
-	void CEllipse::Draw(Graphics *gp, POINT leftTop, POINT rightBottom, COLORREF color, DashStyle penStyle, double penWidth, BOOL bSetRop)
+	void CEllipse::Draw(Graphics *gp, POINT leftTop, POINT rightBottom, COLORREF colorOutline, DashStyle penStyle, double penWidth, COLORREF colorFill)
 	{
-		CShape::SetValue(leftTop, rightBottom, color, penStyle, penWidth);
+		CShape::SetValue(leftTop, rightBottom, colorOutline, penStyle, penWidth, colorFill);
 
-		//if (bSetRop == TRUE) SetROP2(hdc, R2_MERGEPENNOT); // Chế độ vẽ không làm ảnh hưởng đến các hình đã vẽ
-
-		//SelectObject(hdc, GetStockObject(NULL_BRUSH)); // Nền trong suốt
+		if (this->colorFill_ != -1)
+		{
+			Color color_fill;
+			color_fill.SetFromCOLORREF(this->colorFill_);
+			SolidBrush *brush = new SolidBrush(color_fill);
+			gp->FillEllipse(brush, leftTop_.x, leftTop_.y, rightBottom_.x - leftTop_.x, rightBottom_.y - leftTop_.y);
+			delete brush;
+		}
 
 		Color iColor;
-		iColor.SetFromCOLORREF(this->color_);
+		iColor.SetFromCOLORREF(this->colorOutline_);
 		Pen* pen = new Pen(iColor, this->penWidth_);
 		pen->SetDashStyle(this->penStyle_);
 	
-		//Graphics* graphics = new Graphics(hdc);
 		gp->DrawEllipse(pen, leftTop_.x, leftTop_.y, rightBottom_.x - leftTop_.x, rightBottom_.y - leftTop_.y);
 
 		delete pen;
-		//delete graphics;
 	}
 
 	void CEllipse::WriteBinary(std::ofstream &out)

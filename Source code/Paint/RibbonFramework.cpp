@@ -143,6 +143,24 @@ HRESULT ChangeStateUndo(bool state)
 	return hr;
 }
 
+HRESULT ChangeStateFillColorPicker(bool state)
+{
+	HRESULT hr = S_OK;
+
+	PROPVARIANT enable;
+	enable.vt = VT_BOOL;
+
+	if (state) enable.boolVal = -1;
+	else enable.boolVal = 0;
+
+	if (g_pFramework)
+	{
+		hr = g_pFramework->SetUICommandProperty(cmdColorFillPicker, UI_PKEY_Enabled, enable);
+	}
+
+	return hr;
+}
+
 HRESULT ChangeToggleBtnValue(UINT32 id, bool state)
 {
 	HRESULT hr = S_OK;

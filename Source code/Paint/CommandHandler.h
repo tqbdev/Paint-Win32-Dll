@@ -27,6 +27,7 @@
 //    Also the same command handler is returned for every command.
 //
 extern COLORREF gColor;
+extern COLORREF gFillColor;
 extern short gDashStyle;
 extern float gPenWidth;
 

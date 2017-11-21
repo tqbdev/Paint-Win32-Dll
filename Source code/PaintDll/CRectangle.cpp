@@ -11,18 +11,9 @@ namespace MyPaint
 	{
 	}
 
-	void CRectangle::Draw(Graphics *gp, POINT leftTop, POINT rightBottom, COLORREF color, DashStyle penStyle, double penWidth, BOOL bSetRop)
+	void CRectangle::Draw(Graphics *gp, POINT leftTop, POINT rightBottom, COLORREF colorOutline, DashStyle penStyle, double penWidth, COLORREF colorFill)
 	{
-		CShape::SetValue(leftTop, rightBottom, color, penStyle, penWidth);
-
-		//if (bSetRop == TRUE) SetROP2(hdc, R2_MERGEPENNOT); // Chế độ vẽ không làm ảnh hưởng đến các hình đã vẽ
-
-		//SelectObject(hdc, GetStockObject(NULL_BRUSH)); // Nền trong suốt
-
-		Color iColor;
-		iColor.SetFromCOLORREF(this->color_);
-		Pen* pen = new Pen(iColor, this->penWidth_);
-		pen->SetDashStyle(this->penStyle_);
+		CShape::SetValue(leftTop, rightBottom, colorOutline, penStyle, penWidth, colorFill);
 
 		POINT upperConner;
 		if (leftTop_.x > rightBottom_.x && leftTop_.y > rightBottom_.y)
@@ -44,11 +35,23 @@ namespace MyPaint
 			upperConner.y = leftTop_.y;
 		}
 
-		//Graphics* graphics = new Graphics(hdc);
+		if (this->colorFill_ != -1)
+		{
+			Color color_fill;
+			color_fill.SetFromCOLORREF(this->colorFill_);
+			SolidBrush *brush = new SolidBrush(color_fill);
+			gp->FillRectangle(brush, upperConner.x, upperConner.y, abs(rightBottom_.x - leftTop_.x), abs(rightBottom_.y - leftTop_.y));
+			delete brush;
+		}
+
+		Color iColor;
+		iColor.SetFromCOLORREF(this->colorOutline_);
+		Pen* pen = new Pen(iColor, this->penWidth_);
+		pen->SetDashStyle(this->penStyle_);
+
 		gp->DrawRectangle(pen, upperConner.x, upperConner.y, abs(rightBottom_.x - leftTop_.x), abs(rightBottom_.y - leftTop_.y));
 
 		delete pen;
-		//delete graphics;
 	}
 
 	void CRectangle::WriteBinary(std::ofstream &out)

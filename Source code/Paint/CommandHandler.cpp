@@ -16,6 +16,7 @@
 #include "resource.h" // For ID of Main Window
 
 COLORREF gColor = RGB(0,0,0);
+COLORREF gFillColor = -1;
 short gDashStyle = 0;
 float gPenWidth = 1.0F;
 
@@ -155,12 +156,14 @@ STDMETHODIMP CCommandHandler::Execute(
 			color = COLOR_WINDOWTEXT;
 			break;
 		case UI_SWATCHCOLORTYPE_NOCOLOR:
-			//color = MSONoFill;
+			color = -1;
 			break;
 		}
 
 		// do with your color what you will...
-		gColor = color;
+		if (nCmdID == cmdColorPicker) gColor = color;
+		if (nCmdID == cmdColorFillPicker) gFillColor = color;
+
 		hr = S_OK;
 	}
 	
@@ -196,6 +199,8 @@ STDMETHODIMP CCommandHandler::Execute(
 		if (lastIDShape == nCmdID) ChangeToggleBtnValue(lastIDShape, true);
 		else ChangeToggleBtnValue(lastIDShape, false);
 		lastIDShape = nCmdID;
+		if (nCmdID == ID_CMD_LINE) ChangeStateFillColorPicker(false);
+		else ChangeStateFillColorPicker(true);
 		SendMessage(hwnd, WM_COMMAND, ID_SHAPE_LINE + nCmdID - ID_CMD_LINE, 0);
 		break;
 

@@ -21,5 +21,6 @@ void DestroyFramework();
 HRESULT GetRibbonHeight(UINT* ribbonHeight);
 HRESULT ChangeStateRedo(bool state);
 HRESULT ChangeStateUndo(bool state);
+HRESULT ChangeStateFillColorPicker(bool state);
 
 HRESULT ChangeToggleBtnValue(UINT32 id, bool state);

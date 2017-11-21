@@ -21,6 +21,7 @@
         <String Id="211">Colors Picker</String>
       </Command.LabelTitle>
     </Command>
+    
     <Command Name="cmdColorPicker" Symbol="cmdColorPicker">
       <Command.LabelTitle>
         <String Id="220">Outline</String>
@@ -29,6 +30,15 @@
         <Image Id="241">Icons/color.picker.png</Image>
       </Command.LargeImages>
     </Command>
+    <Command Name="cmdColorFillPicker" Symbol="cmdColorFillPicker">
+      <Command.LabelTitle>
+        <String Id="221">Fill</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="242">Icons/color.fill.png</Image>
+      </Command.LargeImages>
+    </Command>
+      
     <Command Name="cmdShapes" Symbol="IDR_CMD_SHAPES">
       <Command.LabelTitle>
         <String Id="240">Shapes</String>
@@ -212,8 +222,9 @@
             <ToggleButton CommandName="cmdBtnRectangle"/>
             <ToggleButton CommandName="cmdBtnEllipse"/>
           </Group>
-          <Group CommandName="cmdColorsGroup" SizeDefinition="OneButton">
+          <Group CommandName="cmdColorsGroup" SizeDefinition="TwoButtons">
             <DropDownColorPicker ColorTemplate="ThemeColors"  ChipSize="Medium" IsAutomaticColorButtonVisible="true" IsNoColorButtonVisible="false" Columns="10" StandardColorGridRows="1" CommandName="cmdColorPicker"/>
+            <DropDownColorPicker ColorTemplate="ThemeColors"  ChipSize="Medium" IsAutomaticColorButtonVisible="false" IsNoColorButtonVisible="true" Columns="10" StandardColorGridRows="1" CommandName="cmdColorFillPicker"/>
           </Group>
           <Group CommandName="cmdStylesGroup" SizeDefinition="TwoButtons">
             <DropDownGallery CommandName="cmdBtnStyles" Type="Commands" ItemHeight="32" ItemWidth="128" HasLargeItems="true">

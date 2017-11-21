@@ -16,7 +16,7 @@ namespace MyPaint
 		CEllipse();
 		~CEllipse();
 
-		void Draw(Graphics *gp, POINT leftTop, POINT rightBottom, COLORREF color, DashStyle penStyle, double penWidth, BOOL bSetRop = TRUE);
+		void Draw(Graphics *gp, POINT leftTop, POINT rightBottom, COLORREF colorOutline, DashStyle penStyle, double penWidth, COLORREF colorFill);
 		void WriteBinary(std::ofstream &out);
 	};
 }

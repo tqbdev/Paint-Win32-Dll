@@ -38,6 +38,12 @@ END
 cmdColorPicker_LargeImages_RESID    IMAGE    "Icons\\color.picker.png" /* LargeImages cmdColorPicker_LargeImages_RESID: (null) */
 STRINGTABLE 
 BEGIN
+    cmdColorFillPicker_LabelTitle_RESID L"Fill" /* LabelTitle cmdColorFillPicker_LabelTitle_RESID: (null) */
+END
+
+cmdColorFillPicker_LargeImages_RESID    IMAGE    "Icons\\color.fill.png" /* LargeImages cmdColorFillPicker_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
     IDR_CMD_SHAPES_LabelTitle_RESID L"Shapes" /* LabelTitle IDR_CMD_SHAPES_LabelTitle_RESID: (null) */
 END
 
