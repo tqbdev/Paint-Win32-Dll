@@ -182,9 +182,9 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Ribbon.xml">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">uicc.exe $(ProjectDir)\Ribbon.xml $(ProjectDir)\Ribbon.bml /header:$(ProjectDir)\RibbonIDs.h /res:$(ProjectDir)\Ribbon.rc</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">uicc.exe Ribbon.xml Ribbon.bml /header:RibbonIDs.h /res:Ribbon.rc</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Ribbon.bml;RibbonIDs.h;Ribbon.rc;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">uicc.exe $(ProjectDir)\Ribbon.xml $(ProjectDir)\Ribbon.bml /header:$(ProjectDir)\RibbonIDs.h /res:$(ProjectDir)\Ribbon.rc</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">uicc.exe Ribbon.xml Ribbon.bml /header:RibbonIDs.h /res:Ribbon.rc</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Ribbon.bml;RibbonIDs.h;Ribbon.rc;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>

@@ -282,4 +282,4 @@ BEGIN
     InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
 END
 
-APPLICATION_RIBBON    UIFILE    "F:\\University\\LTWin\\Lab\\Lab09.Paint.Dll\\Paint\\Paint\\\\Ribbon.bml"
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
