@@ -358,6 +358,7 @@ void OnPaint(HWND hwnd)
 	FillRect(hdcMem, &rect, HBRUSH(RGB(255, 255, 255)));
 	
 	Gdiplus::Graphics *graphics = new Gdiplus::Graphics(hdcMem);
+	graphics->SetSmoothingMode(SmoothingModeHighQuality);
 	MyPaint::ImageConvert::ImgToHDC(graphics);
 
 	for (int i = 0; i < gShapes.size(); i++)
