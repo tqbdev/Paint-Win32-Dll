@@ -1,11 +1,10 @@
-# Readme for deadline Paint Update DLL
+# Paint Win32 Update DLL
 
 ### ---------------- INFO ----------------
-1. ID: 1512029
-2. Name: Trần Quốc Bảo
-3. Emal: tranquocbao3897@gmail.com
-4. Version Visual Studio: Community 2017 
-5. Release: Bản release được build ở dạng release.
+1. Name: Trần Quốc Bảo
+2. Emal: tranquocbao3897@gmail.com
+3. Version Visual Studio: Community 2017 
+4. Release: Bản release được build ở dạng release.
 
 ### -------------- HAVE DONE --------------
 1. Giao diện chương trình. (Menu, Status Bar, Ribbon)
@@ -63,13 +62,9 @@ Sử dụng kỹ thuật Double-buffing - các biến sử dụng thường xuy�
 1. Khi thoát chương trình, nếu đã vẽ mà chưa lưu sẽ hỏi có muốn lưu hay không?
 2. Khi mở file trong khi đang vẽ thì hỏi có muốn lưu hay không?
 
-### ------------ LINK BITBUCKET -----------
-1. Before ver 3.0: https://1512029@bitbucket.org/1512029/paint.git
-2.        ver 3.1: https://1512029@bitbucket.org/1512029/paint-dll.git
-```
-Chú ý link repository trên là private đã add key public của giáo viên.
-Đồng thời add user tdquang_edu vào repository với quyền read.
-```
+### ------ GIT ORIGINAL (BITBUCKET) -------
+> ver 3.1: https://1512029@bitbucket.org/1512029/paint-dll.git
+
 ### ------------- LINK YOUTUBE ------------
 1. ver 1.0: https://youtu.be/Jk_jeQDzUdc
 2. ver 2.0: https://youtu.be/Gz5Pj7eGp3Q
